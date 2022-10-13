@@ -27,3 +27,9 @@ print (g)
 print (type(e))
 print (type(f))
 print (type(g))
+
+
+# Random Number
+import random
+
+print (random.randrange(1, 100))
