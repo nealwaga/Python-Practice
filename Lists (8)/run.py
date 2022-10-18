@@ -7,3 +7,8 @@ print (mylist)
 # List Length
 thislist = ["Benzema", "Cristiano", "Messi", "Saka"]
 print (len(thislist))
+
+
+# type()
+alist = [23, 30, 0,]
+print (type(alist))
