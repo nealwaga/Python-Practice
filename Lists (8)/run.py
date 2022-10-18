@@ -12,3 +12,9 @@ print (len(thislist))
 # type()
 alist = [23, 30, 0,]
 print (type(alist))
+
+
+# Check if item exists
+thelist = ["Vans", "Converse", "Jordans"]
+if "Vans" in thelist:
+    print ("Yes, Vans exists")
