@@ -9,6 +9,15 @@ print (x)
 
 # Add Items
 thistuple = ("Mercedes", "BMW", "Audi", "Range Rover")
-y = ("VolksWagen")
-thistuple += y
+y = list(thistuple)
+y.append ("Volvo")
+thistuple = tuple(y)
 print (thistuple)
+
+
+# Unpacking a Tuple
+clubs = ("Arsenal", "Real Madrid", "LIverpool")
+(red, white, yellow) = clubs 
+print (red)
+print (white)
+print (yellow)
